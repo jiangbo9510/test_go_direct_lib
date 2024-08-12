@@ -6,6 +6,6 @@ func SetCommon(v string) {
 	test_base_lib.Common = v
 }
 
-func GetVersion() string {
-	return test_base_lib.GetString()
+func GetCommon() string {
+	return test_base_lib.GetCommon()
 }
